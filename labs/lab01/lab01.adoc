@@ -163,7 +163,7 @@ Already have something running on port `8080`? You can tell Spring Boot to use a
 
 [source,bash]
 ----
-./mvnw spring-boot:run -Dserver.port=9999
+./mvnw spring-boot:run -Dspring-boot.run.jvmArguments="-Dserver.port=8010"
 ----
 ====
 
